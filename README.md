@@ -7,7 +7,11 @@ The Online Course Registration Portal is a responsive web application developed 
 The website is fully responsive and works across desktop, tablet, and mobile devices.
 
 ---
+### Live Demo
 
+https://sarayuchikakolla.github.io/Online_Course_Registration_Portal/
+
+---
 ## Features
 
 ### Home Page
