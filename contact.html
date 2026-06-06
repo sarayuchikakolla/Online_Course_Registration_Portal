@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .map-placeholder{
+            height:300px;
+            background:#f8f9fa;
+            border:2px dashed #6c757d;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:24px;
+            font-weight:bold;
+        }
+
+        .card:hover{
+            transform: translateY(-5px);
+            transition:0.3s;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                Learnify
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="courses.html">
+                            Courses
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Heading -->
+
+    <div class="container text-center my-5">
+
+        <h1>Contact Us</h1>
+
+        <p class="lead">
+            We'd love to hear from you.
+        </p>
+
+    </div>
+
+    <!-- Contact Section -->
+
+    <div class="container mb-5">
+
+        <div class="row">
+
+            <!-- Contact Form -->
+
+            <div class="col-md-6">
+
+                <div class="card shadow">
+
+                    <div class="card-body">
+
+                        <h3 class="mb-4">
+                            Send a Message
+                        </h3>
+
+                        <form>
+
+                            <div class="mb-3">
+                                <label class="form-label">
+                                    Name
+                                </label>
+
+                                <input type="text"
+                                    class="form-control"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">
+                                    Email
+                                </label>
+
+                                <input type="email"
+                                    class="form-control"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">
+                                    Subject
+                                </label>
+
+                                <input type="text"
+                                    class="form-control"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea class="form-control"
+                                    rows="5"
+                                    required></textarea>
+                            </div>
+
+                            <div class="alert alert-success">
+                                Message Sent Successfully!
+                            </div>
+
+                            <button type="submit"
+                                class="btn btn-primary">
+                                Send Message
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Contact Details -->
+
+            <div class="col-md-6">
+
+                <div class="card shadow mb-4">
+
+                    <div class="card-body">
+
+                        <h3>Address Information</h3>
+
+                        <p>
+                            📍 Learnify Training Institute,
+                            Hyderabad, Telangana
+                        </p>
+
+                        <p>
+                            📞 +91 9876543210
+                        </p>
+
+                        <p>
+                            📧 info@learnify.com
+                        </p>
+
+                    </div>
+
+                </div>
+
+ <div class="card shadow">
+
+    <div class="card-body text-center">
+
+        <h4 class="mb-3">📍 Visit Our Campus</h4>
+
+        <!-- <img src="images/location.jpg"
+             class="img-fluid rounded mb-3"
+             alt="Institute Location"> -->
+
+        <h5>Learnify Training Institute</h5>
+
+        <p>
+            Hitech City, Hyderabad<br>
+            Telangana - 500081
+        </p>
+
+        <a href="https://maps.google.com"
+           target="_blank"
+           class="btn btn-primary">
+            View on Google Maps
+        </a>
+
+    </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white text-center p-3">
+
+        <p>
+            © 2026 Learnify. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    .card {
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+        transform: scale(1.05);
+    }
+
+    .btn-secondary:hover {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+</style>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                Training Institute
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="courses.html">
+                            Courses
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Header -->
+
+    <div class="container text-center my-5">
+
+        <h1>Available Courses</h1>
+
+        <p class="lead">
+            Choose a course and start your learning journey.
+        </p>
+
+    </div>
+
+    <!-- Courses -->
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- Web Development -->
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="images/web.jpg" class="card-img-top" height="220">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Web Development
+                        </h5>
+
+                        <p>
+                            Learn HTML, CSS, Bootstrap and JavaScript.
+                        </p>
+
+                        <p>
+                            <strong>Duration:</strong> 3 Months
+                        </p>
+
+                        <p>
+                            <strong>Fee:</strong> ₹5000
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#webModal">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Python -->
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="images/python.jpg" class="card-img-top" height="220">
+
+                    <div class="card-body">
+
+                        <h5>Python Programming</h5>
+
+                        <p>
+                            Learn Python from basics to advanced.
+                        </p>
+
+                        <p>
+                            <strong>Duration:</strong> 2 Months
+                        </p>
+
+                        <p>
+                            <strong>Fee:</strong> ₹4000
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pythonModal">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Data Science -->
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="images/datascience.jpg" class="card-img-top" height="220">
+
+                    <div class="card-body">
+
+                        <h5>Data Science</h5>
+
+                        <p>
+                            Learn data analysis and visualization.
+                        </p>
+
+                        <p>
+                            <strong>Duration:</strong> 4 Months
+                        </p>
+
+                        <p>
+                            <strong>Fee:</strong> ₹7000
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#datascienceModal">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- AI & ML -->
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="images/ai.jpg" class="card-img-top" height="220">
+
+                    <div class="card-body">
+
+                        <h5>AI & Machine Learning</h5>
+
+                        <p>
+                            Learn Artificial Intelligence concepts.
+                        </p>
+
+                        <p>
+                            <strong>Duration:</strong> 6 Months
+                        </p>
+
+                        <p>
+                            <strong>Fee:</strong> ₹10000
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aiModal">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Java -->
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="images/java.jpg" class="card-img-top" height="220">
+
+                    <div class="card-body">
+
+                        <h5>Java Programming</h5>
+
+                        <p>
+                            Learn Core Java and OOP concepts.
+                        </p>
+
+                        <p>
+                            <strong>Duration:</strong> 3 Months
+                        </p>
+
+                        <p>
+                            <strong>Fee:</strong> ₹5000
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#javaModal">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Cloud -->
+
+            <div class="col-md-4">
+                <div class="card h-100">
+
+                    <img src="images/cloud.jpg" class="card-img-top" height="220">
+
+                    <div class="card-body">
+
+                        <h5>Cloud Computing</h5>
+
+                        <p>
+                            Learn AWS and cloud technologies.
+                        </p>
+
+                        <p>
+                            <strong>Duration:</strong> 4 Months
+                        </p>
+
+                        <p>
+                            <strong>Fee:</strong> ₹8000
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cloudModal">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="webModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Web Development
+                    </h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    HTML<br>
+                    CSS<br>
+                    Bootstrap<br>
+                    JavaScript<br>
+                    Responsive Design
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="pythonModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        Python Programming
+                    </h4>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    Python Basics <br>
+                    Functions <br>
+                    OOP <br>
+                    File Handling <br>
+                    Projects
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="datascienceModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        Data Science
+                    </h4>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    Python for Data Science <br>
+                    NumPy <br>
+                    Pandas <br>
+                    Data Visualization <br>
+                    Machine Learning Basics
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="aiModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        AI & Machine Learning
+                    </h4>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    Artificial Intelligence <br>
+                    Machine Learning <br>
+                    Deep Learning <br>
+                    Neural Networks <br>
+                    AI Projects
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="javaModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        Java Programming
+                    </h4>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    Core Java <br>
+                    OOP Concepts <br>
+                    Collections Framework <br>
+                    JDBC <br>
+                    Mini Projects
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="cloudModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        Cloud Computing
+                    </h4>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    Cloud Fundamentals <br>
+                    AWS Services <br>
+                    EC2 & S3 <br>
+                    Deployment <br>
+                    Cloud Security
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+
+        <p>© 2026 Training Institute</p>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
